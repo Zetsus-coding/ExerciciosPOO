@@ -114,10 +114,10 @@ namespace Exercicio2
             Preco = preco;
         }
 
-        // Construtor padrão
+        // Construtor padrão? Ou padrão é somente quando não se "define" um construtor?
         public Produto()
         {
-           _dataCadastro = DateTime.Now;
+           //_dataCadastro = DateTime.Now;
         }
     }
 }
