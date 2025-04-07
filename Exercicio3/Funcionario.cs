@@ -56,26 +56,24 @@ namespace Exercicio3
         }
         
         // Construtor
-        public Funcionario(string nome, string cpf, DateTime data, double salario)
+        public Funcionario()
         {
-            Nome = nome;
-            CPF = cpf;
-            DataAdmissao = data;
-            SalarioBase = salario;
+            // Devo sempre inicializar?
         }
 
         // Métodos virtuais
-        public virtual void CalcularSalario() // Salário base = salário final
+        public virtual void CalcularSalario()
         {
             Console.WriteLine(SalarioBase);
         }
-
-        public virtual void ExibirDados() // Mostra as informações básicas da pessoa
+        public virtual void ExibirDados()
         {
             Console.WriteLine("Nome: " + Nome);
             Console.WriteLine("CPF: " + CPF);
             Console.WriteLine("Data de admissão: " + DataAdmissao.ToShortDateString());
             Console.WriteLine("Salário: " + SalarioBase);
         }
+
+
     }
 }
