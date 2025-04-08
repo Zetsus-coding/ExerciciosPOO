@@ -1,4 +1,4 @@
-# Lista de Exercícios 02: Programação Orientada a Objetos
+# Lista de Exercícios 02: Programação Orientada a Objetos (AINDA NÃO FINALIZADO)
 
 ## Exercício 1: Sistema Bancário (Encapsulamento)
 
